@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 10rem;
+
+}
+
+button {
+    width: 7rem;
+    height: 3rem;
+    font-size: larger;
+    margin-bottom: 4rem;
+    color: blueviolet;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.input {
+
+    width: 40rem;
+    height: 6rem;
+    display: block;
+    margin-bottom: 3rem;
+    overflow: scroll
+}
+
+.input:hover {
+    outline-color: blueviolet;
+}
+
+textarea,
+textarea::placeholder {
+    padding-left: 0.8rem;
+    font: 30px/3 sans-serif;
+}
+
+
+.button {
+    width: 15rem;
+    height: 3rem;
+    font-size: x-large;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+    background-color: lightgray;
+    border: 1px solid black;
+
+}
+
+.text_2 {
+    display: inline-flex;
+    margin-top: 3rem
+}
+
+.text_end {
+    margin-top: 2rem;
+    font-size: xx-large;
+}
+
+span {
+    color: red;
+    margin-top: 2rem;
+    font-size: xx-large;
+
+}
