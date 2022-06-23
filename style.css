@@ -17,6 +17,11 @@ button {
 
 }
 
+button:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
 .button:hover {
     cursor: pointer;
     color: blueviolet;
